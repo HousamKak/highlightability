@@ -14,8 +14,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/VS%20Code-Extension-blue?logo=visual-studio-code" alt="VS Code Extension">
-  <img src="https://img.shields.io/badge/version-0.0.2-green" alt="Version">
-  <img src="https://img.shields.io/badge/license-MIT-orange" alt="License">
+  <img src="https://img.shields.io/badge/version-0.1.1-green" alt="Version">
+  <img src="https://img.shields.io/badge/license-Proprietary-orange" alt="License">
 </p>
 
 ---
