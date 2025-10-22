@@ -1,8 +1,103 @@
-# Highlightability
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/logo/svg/logo-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/logo/svg/logo-light.svg">
+    <img alt="Highlightability Logo" src="assets/logo/svg/logo-light.svg" width="400">
+  </picture>
+</p>
 
-A powerful VS Code extension to highlight code snippets with optional comments and advanced management features.
+<h1 align="center">Highlightability</h1>
 
-## Features
+<p align="center">
+  A powerful VS Code extension to highlight code snippets with optional comments and advanced management features.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/VS%20Code-Extension-blue?logo=visual-studio-code" alt="VS Code Extension">
+  <img src="https://img.shields.io/badge/version-0.0.2-green" alt="Version">
+  <img src="https://img.shields.io/badge/license-MIT-orange" alt="License">
+</p>
+
+---
+
+## 📹 Demo Videos
+
+### Quick Highlight Toggle
+> *Video: See how to instantly highlight and unhighlight code with a single keyboard shortcut*
+
+https://github.com/user-attachments/assets/your-video-id-here
+
+**What you'll see:**
+- Press `Ctrl+Shift+Z` to toggle highlights on selected text
+- Instant highlighting with default color - no dialogs!
+- Remove highlights just as quickly with the same shortcut
+
+---
+
+### Multiple Color Options
+> *Video: Choose from 5 different colors to organize your highlights*
+
+https://github.com/user-attachments/assets/your-video-id-here
+
+**What you'll see:**
+- Right-click context menu with color picker
+- Yellow, Green, Pink, Cyan, and Orange highlights
+- Perfect for categorizing different types of code
+
+---
+
+### Add Comments to Highlights
+> *Video: Attach notes and reminders to your highlighted code*
+
+https://github.com/user-attachments/assets/your-video-id-here
+
+**What you'll see:**
+- Add comments when creating highlights
+- Edit comments on existing highlights
+- Hover over highlights to see comments instantly
+
+---
+
+### Sidebar Management
+> *Video: Manage all your highlights from the dedicated Tree View sidebar*
+
+https://github.com/user-attachments/assets/your-video-id-here
+
+**What you'll see:**
+- View all highlights organized by file
+- Click to jump to any highlight
+- Edit or delete highlights directly from the sidebar
+- Refresh, export, and import buttons for easy management
+
+---
+
+### Export & Import Highlights
+> *Video: Share your highlights with your team or back them up*
+
+https://github.com/user-attachments/assets/your-video-id-here
+
+**What you'll see:**
+- Export highlights to JSON file
+- Import highlights from teammates
+- Merge or replace existing highlights
+- Perfect for team collaboration and code reviews
+
+---
+
+### Dynamic Range Adjustment
+> *Video: Highlights automatically adjust when you edit code*
+
+https://github.com/user-attachments/assets/your-video-id-here
+
+**What you'll see:**
+- Add or remove lines above highlights
+- Highlights stay synchronized with your code
+- Edit inside highlighted sections
+- Persistent across file saves and VS Code restarts
+
+---
+
+## ✨ Features
 
 - **Highlight any selected text** with customizable colors (Yellow, Green, Pink, Cyan, Orange)
 - **Keyboard shortcuts** for lightning-fast highlighting
@@ -17,14 +112,14 @@ A powerful VS Code extension to highlight code snippets with optional comments a
 - **Navigate quickly** to any highlight from the sidebar or command palette
 - **Comprehensive logging** for debugging issues
 
-## Keyboard Shortcuts
+## ⌨️ Keyboard Shortcuts
 
 | Shortcut | Action |
 |----------|--------|
 | `Ctrl+Shift+Z` (Mac: `Cmd+Shift+Z`) | **Toggle Highlight** - Add or remove highlight on selected text |
 | `Ctrl+Shift+C` (Mac: `Cmd+Shift+C`) | **Edit Comment** - Edit comment for highlight at cursor |
 
-## Usage
+## 📖 Usage
 
 ### Toggle Highlight (Fast & Simple!)
 
@@ -108,7 +203,9 @@ Or use the Tree View sidebar:
 2. Type "Clear All Highlights"
 3. Choose to clear highlights from the current file or all files
 
-## Commands
+## 🎯 Commands
+
+All available commands (accessible via Command Palette):
 
 - `codeHighlighter.toggleHighlight` - Toggle highlight on/off for selected text (default color)
 - `codeHighlighter.addHighlightYellow` - Add yellow highlight
@@ -125,7 +222,7 @@ Or use the Tree View sidebar:
 - `codeHighlighter.jumpToHighlight` - Jump to a specific highlight
 - `codeHighlighter.showLogs` - Show extension logs for debugging
 
-## Troubleshooting
+## 🔧 Troubleshooting
 
 If highlights aren't showing up or you're experiencing issues:
 
@@ -143,9 +240,9 @@ Common issues:
 - **Highlights disappeared after editing**: The extension automatically adjusts ranges, but check logs if issues persist
 - **Extension not loading**: Check the logs for activation errors
 
-## Configuration
+## ⚙️ Configuration
 
-You can customize the default highlight color and available colors in your settings:
+You can customize the default highlight color and available colors in your VS Code settings:
 
 ```json
 {
@@ -160,14 +257,56 @@ You can customize the default highlight color and available colors in your setti
 }
 ```
 
-## Development
+## 🛠️ Development
 
 To run the extension in development mode:
 
-1. Install dependencies: `npm install`
-2. Compile: `npm run compile`
-3. Press `F5` to open a new VS Code window with the extension loaded
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Compile: `npm run compile`
+4. Press `F5` to open a new VS Code window with the extension loaded
 
-## License
+### Build Commands
 
-MIT
+```bash
+npm install          # Install dependencies
+npm run compile      # Compile TypeScript
+npm run watch        # Watch mode for development
+npm run lint         # Run ESLint
+npm run package      # Create .vsix package
+```
+
+---
+
+## 📄 License
+
+**Copyright © 2025 Housam Kak. All Rights Reserved.**
+
+This software and associated documentation files (the "Software") are proprietary and confidential. Unauthorized copying, distribution, modification, or use of this Software, via any medium, is strictly prohibited without express written permission from the copyright holder.
+
+For licensing inquiries, please contact: housam.kak20@gmail.com
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+---
+
+## 🐛 Issues
+
+Found a bug or have a feature request? Please open an issue on [GitHub](https://github.com/housamkak/highlightability/issues).
+
+---
+
+## 💬 Feedback
+
+Love Highlightability? Consider:
+- ⭐ Starring the repo on GitHub
+- 📝 Leaving a review on the VS Code Marketplace
+- 🐦 Sharing with your fellow developers
+
+---
+
+<p align="center">Made with ❤️ for developers who love organized code</p>

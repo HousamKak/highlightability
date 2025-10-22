@@ -4,6 +4,7 @@
   "description": "Highlight code snippets with comments",
   "version": "0.0.2",
   "publisher": "housamkak",
+  "icon": "assets/logo/png/icon-light/icon-light-128x128.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/housamkak/highlightability.git"
@@ -12,7 +13,7 @@
     "url": "https://github.com/housamkak/highlightability/issues"
   },
   "homepage": "https://github.com/housamkak/highlightability#readme",
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE",
   "keywords": [
     "highlight",
     "highlighter",
@@ -292,6 +293,8 @@
     "@typescript-eslint/parser": "^5.0.0",
     "@vscode/vsce": "^3.0.0",
     "eslint": "^8.0.0",
+    "png-to-ico": "^3.0.1",
+    "sharp": "^0.34.4",
     "typescript": "^5.0.0"
   }
 }
