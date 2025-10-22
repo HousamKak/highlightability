@@ -8,6 +8,7 @@ All notable changes to the "Highlightability" extension will be documented in th
 - GitHub Actions workflow for automated publishing to VS Code Marketplace
 - npm scripts for package management (`package`, `publish`, `version:patch`, `version:minor`, `version:major`)
 - Publishing guide documentation (PUBLISHING.md) with setup and release instructions
+- ESLint configuration file for code quality and CI/CD pipeline
 
 ### Changed
 - Updated keyboard shortcut from `Ctrl+Shift+A` to `Ctrl+Shift+Z` for toggle highlight functionality
