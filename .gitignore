@@ -39,3 +39,7 @@ yarn-error.log*
 # Build artifacts
 dist/
 build/
+
+*GUIDE.md
+
+settings.local.json

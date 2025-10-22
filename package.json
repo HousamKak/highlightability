@@ -123,8 +123,8 @@
     "keybindings": [
       {
         "command": "codeHighlighter.toggleHighlight",
-        "key": "ctrl+shift+h",
-        "mac": "cmd+shift+h",
+        "key": "ctrl+shift+a",
+        "mac": "cmd+shift+a",
         "when": "editorTextFocus && editorHasSelection"
       },
       {

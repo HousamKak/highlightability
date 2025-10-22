@@ -6,7 +6,7 @@ Your Highlightability extension is now ready to use and publish!
 
 ### 1. Local Package Created ✓
 - File: `highlightability-0.0.1.vsix`
-- Location: `D:\dev\Playground For Testing\highlight extension\`
+- Location: `D:\dev\Playground For Testing\highlightability\`
 
 ### 2. Files Added ✓
 - ✅ `LICENSE` - MIT License
@@ -20,7 +20,7 @@ Your Highlightability extension is now ready to use and publish!
 2. Press `Ctrl+Shift+X` (Extensions view)
 3. Click the **`...`** menu at top
 4. Select **"Install from VSIX..."**
-5. Choose: `D:\dev\Playground For Testing\highlight extension\highlightability-0.0.1.vsix`
+5. Choose: `D:\dev\Playground For Testing\highlightability\highlightability-0.0.1.vsix`
 6. Click **Reload** when prompted
 7. Test it: Select some text and press `Ctrl+Shift+H`
 
