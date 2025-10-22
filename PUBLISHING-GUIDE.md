@@ -1,4 +1,4 @@
-# Publishing Guide for Code Highlighter Extension
+# Publishing Guide for Highlightability Extension
 
 ## Prerequisites Checklist
 
@@ -95,7 +95,7 @@ vsce unpublish <publisher>.<extension-name>
 
 ## After Publishing
 
-- Your extension will appear at: `https://marketplace.visualstudio.com/items?itemName=<publisher>.code-highlighter`
+- Your extension will appear at: `https://marketplace.visualstudio.com/items?itemName=<publisher>.highlightability`
 - It may take a few minutes to appear in VS Code's extension search
 - Monitor the "Q & A" section for user questions
 - Check reviews and ratings

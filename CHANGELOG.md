@@ -1,11 +1,11 @@
 # Change Log
 
-All notable changes to the "Code Highlighter" extension will be documented in this file.
+All notable changes to the "Highlightability" extension will be documented in this file.
 
 ## [0.0.1] - 2025-10-22
 
 ### Added
-- Initial release of Code Highlighter
+- Initial release of Highlightability
 - Toggle highlight functionality with keyboard shortcut (Ctrl+Shift+H)
 - Multiple highlight colors: Yellow, Green, Pink, Cyan, Orange
 - Add and edit comments on highlights

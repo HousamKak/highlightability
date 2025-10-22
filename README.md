@@ -1,4 +1,4 @@
-# Code Highlighter
+# Highlightability
 
 A powerful VS Code extension to highlight code snippets with optional comments and advanced management features.
 

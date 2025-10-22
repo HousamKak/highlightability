@@ -1,17 +1,17 @@
 {
-  "name": "code-highlighter",
-  "displayName": "Code Highlighter",
+  "name": "highlightability",
+  "displayName": "Highlightability",
   "description": "Highlight code snippets with comments",
   "version": "0.0.1",
-  "publisher": "Housam Kak",
+  "publisher": "housamkak",
   "repository": {
     "type": "git",
-    "url": "https://github.com/housamkak/code-highlighter.git"
+    "url": "https://github.com/housamkak/highlightability.git"
   },
   "bugs": {
-    "url": "https://github.com/housamkak/code-highlighter/issues"
+    "url": "https://github.com/housamkak/highlightability/issues"
   },
-  "homepage": "https://github.com/housamkak/code-highlighter#readme",
+  "homepage": "https://github.com/housamkak/highlightability#readme",
   "license": "MIT",
   "keywords": [
     "highlight",
