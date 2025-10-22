@@ -1,0 +1,291 @@
+{
+  "name": "code-highlighter",
+  "displayName": "Code Highlighter",
+  "description": "Highlight code snippets with comments",
+  "version": "0.0.1",
+  "publisher": "Housam Kak",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/housamkak/code-highlighter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/housamkak/code-highlighter/issues"
+  },
+  "homepage": "https://github.com/housamkak/code-highlighter#readme",
+  "license": "MIT",
+  "keywords": [
+    "highlight",
+    "highlighter",
+    "code highlight",
+    "annotation",
+    "bookmark",
+    "notes",
+    "comments",
+    "marker",
+    "productivity"
+  ],
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "codeHighlighter.toggleHighlight",
+        "title": "Toggle Highlight",
+        "icon": "$(bookmark)"
+      },
+      {
+        "command": "codeHighlighter.addHighlight",
+        "title": "Add Highlight",
+        "icon": "$(bookmark)"
+      },
+      {
+        "command": "codeHighlighter.addHighlightYellow",
+        "title": "Yellow"
+      },
+      {
+        "command": "codeHighlighter.addHighlightGreen",
+        "title": "Green"
+      },
+      {
+        "command": "codeHighlighter.addHighlightPink",
+        "title": "Pink"
+      },
+      {
+        "command": "codeHighlighter.addHighlightCyan",
+        "title": "Cyan"
+      },
+      {
+        "command": "codeHighlighter.addHighlightOrange",
+        "title": "Orange"
+      },
+      {
+        "command": "codeHighlighter.removeHighlight",
+        "title": "Remove Highlight",
+        "icon": "$(close)"
+      },
+      {
+        "command": "codeHighlighter.addComment",
+        "title": "Add Comment"
+      },
+      {
+        "command": "codeHighlighter.editHighlightComment",
+        "title": "Edit Comment",
+        "icon": "$(edit)"
+      },
+      {
+        "command": "codeHighlighter.clearAllHighlights",
+        "title": "Clear All Highlights",
+        "icon": "$(clear-all)"
+      },
+      {
+        "command": "codeHighlighter.listHighlights",
+        "title": "List All Highlights",
+        "icon": "$(list-unordered)"
+      },
+      {
+        "command": "codeHighlighter.exportHighlights",
+        "title": "Export Highlights",
+        "icon": "$(export)"
+      },
+      {
+        "command": "codeHighlighter.importHighlights",
+        "title": "Import Highlights",
+        "icon": "$(import)"
+      },
+      {
+        "command": "codeHighlighter.jumpToHighlight",
+        "title": "Jump to Highlight"
+      },
+      {
+        "command": "codeHighlighter.refreshHighlights",
+        "title": "Refresh Highlights",
+        "icon": "$(refresh)"
+      },
+      {
+        "command": "codeHighlighter.deleteHighlightFromTree",
+        "title": "Delete Highlight",
+        "icon": "$(trash)"
+      },
+      {
+        "command": "codeHighlighter.showLogs",
+        "title": "Show Highlighter Logs",
+        "icon": "$(output)"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "codeHighlighter.toggleHighlight",
+        "key": "ctrl+shift+h",
+        "mac": "cmd+shift+h",
+        "when": "editorTextFocus && editorHasSelection"
+      },
+      {
+        "command": "codeHighlighter.editHighlightComment",
+        "key": "ctrl+shift+c",
+        "mac": "cmd+shift+c",
+        "when": "editorTextFocus"
+      }
+    ],
+    "submenus": [
+      {
+        "id": "codeHighlighter.mainSubmenu",
+        "label": "Highlightability"
+      },
+      {
+        "id": "codeHighlighter.colorSubmenu",
+        "label": "Highlight Color"
+      }
+    ],
+    "views": {
+      "codeHighlighterView": [
+        {
+          "id": "codeHighlighterTreeView",
+          "name": "Highlights",
+          "icon": "$(bookmark)",
+          "contextualTitle": "Code Highlights"
+        }
+      ]
+    },
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "codeHighlighterView",
+          "title": "Code Highlighter",
+          "icon": "$(bookmark)"
+        }
+      ]
+    },
+    "menus": {
+      "editor/context": [
+        {
+          "submenu": "codeHighlighter.mainSubmenu",
+          "group": "codeHighlighter@1"
+        }
+      ],
+      "codeHighlighter.mainSubmenu": [
+        {
+          "when": "editorHasSelection",
+          "command": "codeHighlighter.toggleHighlight",
+          "group": "1_highlight@1"
+        },
+        {
+          "when": "editorHasSelection",
+          "submenu": "codeHighlighter.colorSubmenu",
+          "group": "1_highlight@2"
+        },
+        {
+          "command": "codeHighlighter.addComment",
+          "group": "2_comment@1"
+        },
+        {
+          "command": "codeHighlighter.editHighlightComment",
+          "group": "2_comment@2"
+        }
+      ],
+      "codeHighlighter.colorSubmenu": [
+        {
+          "command": "codeHighlighter.addHighlightYellow",
+          "when": "editorHasSelection",
+          "group": "colors@1"
+        },
+        {
+          "command": "codeHighlighter.addHighlightGreen",
+          "when": "editorHasSelection",
+          "group": "colors@2"
+        },
+        {
+          "command": "codeHighlighter.addHighlightPink",
+          "when": "editorHasSelection",
+          "group": "colors@3"
+        },
+        {
+          "command": "codeHighlighter.addHighlightCyan",
+          "when": "editorHasSelection",
+          "group": "colors@4"
+        },
+        {
+          "command": "codeHighlighter.addHighlightOrange",
+          "when": "editorHasSelection",
+          "group": "colors@5"
+        }
+      ],
+      "view/title": [
+        {
+          "command": "codeHighlighter.refreshHighlights",
+          "when": "view == codeHighlighterTreeView",
+          "group": "navigation@1"
+        },
+        {
+          "command": "codeHighlighter.exportHighlights",
+          "when": "view == codeHighlighterTreeView",
+          "group": "navigation@2"
+        },
+        {
+          "command": "codeHighlighter.importHighlights",
+          "when": "view == codeHighlighterTreeView",
+          "group": "navigation@3"
+        },
+        {
+          "command": "codeHighlighter.clearAllHighlights",
+          "when": "view == codeHighlighterTreeView",
+          "group": "navigation@4"
+        }
+      ],
+      "view/item/context": [
+        {
+          "command": "codeHighlighter.editHighlightComment",
+          "when": "view == codeHighlighterTreeView && viewItem == highlight",
+          "group": "inline@1"
+        },
+        {
+          "command": "codeHighlighter.deleteHighlightFromTree",
+          "when": "view == codeHighlighterTreeView && viewItem == highlight",
+          "group": "inline@2"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Code Highlighter",
+      "properties": {
+        "codeHighlighter.defaultColor": {
+          "type": "string",
+          "default": "#FFFF0066",
+          "description": "Default highlight color (RGBA hex)"
+        },
+        "codeHighlighter.colors": {
+          "type": "array",
+          "default": [
+            "#FFFF0066",
+            "#00FF0066",
+            "#FF00FF66",
+            "#00FFFF66",
+            "#FFA50066"
+          ],
+          "description": "Available highlight colors"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "lint": "eslint src --ext ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/vscode": "^1.80.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.0.0",
+    "typescript": "^5.0.0"
+  }
+}
