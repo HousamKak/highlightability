@@ -40,6 +40,8 @@ yarn-error.log*
 dist/
 build/
 
+# Guide files
+PUBLISHING-GUIDE.md
 *GUIDE.md
 
 settings.local.json
