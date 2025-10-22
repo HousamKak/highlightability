@@ -1,8 +1,8 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/logo/svg/logo-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/logo/svg/logo-light.svg">
-    <img alt="Highlightability Logo" src="assets/logo/svg/logo-light.svg" width="400">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/housamkak/highlightability/raw/HEAD/assets/logo/png/logo-dark/logo-dark-256x256.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/housamkak/highlightability/raw/HEAD/assets/logo/png/logo-light/logo-light-256x256.png">
+    <img alt="Highlightability Logo" src="https://github.com/housamkak/highlightability/raw/HEAD/assets/logo/png/logo-light/logo-light-256x256.png" width="400">
   </picture>
 </p>
 
