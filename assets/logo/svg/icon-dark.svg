@@ -1,8 +1,8 @@
-<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path opacity="0.05" d="M60 118C92.0325 118 118 92.0325 118 60C118 27.9675 92.0325 2 60 2C27.9675 2 2 27.9675 2 60C2 92.0325 27.9675 118 60 118Z" fill="#E5E5E5"/>
-<path d="M38 35L28 45V75L38 85" stroke="#E5E5E5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M85 35L95 45V75L85 85" stroke="#E5E5E5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<path opacity="0.8" d="M78 42H42C39.7909 42 38 43.7909 38 46C38 48.2091 39.7909 50 42 50H78C80.2091 50 82 48.2091 82 46C82 43.7909 80.2091 42 78 42Z" fill="#FFD93D"/>
-<path opacity="0.8" d="M70 70H42C39.7909 70 38 71.7909 38 74C38 76.2091 39.7909 78 42 78H70C72.2091 78 74 76.2091 74 74C74 71.7909 72.2091 70 70 70Z" fill="#4ECDC4"/>
-<path opacity="0.8" d="M88 56H42C39.7909 56 38 57.7909 38 60C38 62.2091 39.7909 64 42 64H88C90.2091 64 92 62.2091 92 60C92 57.7909 90.2091 56 88 56Z" fill="#6BCF7F"/>
+<svg width="120" height="120" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.05" d="M40 78.67C61.355 78.67 78.67 61.355 78.67 40C78.67 18.645 61.355 1.33 40 1.33C18.645 1.33 1.33 18.645 1.33 40C1.33 61.355 18.645 78.67 40 78.67Z" fill="#E5E5E5"/>
+<path d="M25.33 23.33L18.67 30V50L25.33 56.67" stroke="#E5E5E5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M56.67 23.33L63.33 30V50L56.67 56.67" stroke="#E5E5E5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path opacity="0.8" d="M52 28H28C26.527 28 25.33 29.197 25.33 30.67C25.33 32.143 26.527 33.33 28 33.33H52C53.473 33.33 54.67 32.143 54.67 30.67C54.67 29.197 53.473 28 52 28Z" fill="#FFD93D"/>
+<path opacity="0.8" d="M46.67 46.67H28C26.527 46.67 25.33 47.867 25.33 49.33C25.33 50.803 26.527 52 28 52H46.67C48.143 52 49.33 50.803 49.33 49.33C49.33 47.867 48.143 46.67 46.67 46.67Z" fill="#4ECDC4"/>
+<path opacity="0.8" d="M58.67 37.33H28C26.527 37.33 25.33 38.527 25.33 40C25.33 41.473 26.527 42.67 28 42.67H58.67C60.143 42.67 61.33 41.473 61.33 40C61.33 38.527 60.143 37.33 58.67 37.33Z" fill="#6BCF7F"/>
 </svg>
