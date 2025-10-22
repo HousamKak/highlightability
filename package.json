@@ -4,7 +4,7 @@
   "description": "Highlight code snippets with comments",
   "version": "0.1.0",
   "publisher": "housamkak",
-  "icon": "assets/logo/png/icon-light/icon-light-128x128.png",
+  "icon": "assets/logo/png/icon-light/icon-light-256x256.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/housamkak/highlightability.git"
