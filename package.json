@@ -2,7 +2,7 @@
   "name": "highlightability",
   "displayName": "Highlightability",
   "description": "Highlight code snippets with comments",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "publisher": "housamkak",
   "icon": "assets/logo/png/icon-light/icon-light-128x128.png",
   "repository": {
