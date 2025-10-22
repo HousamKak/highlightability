@@ -21,7 +21,7 @@ A powerful VS Code extension to highlight code snippets with optional comments a
 
 | Shortcut | Action |
 |----------|--------|
-| `Ctrl+Shift+H` (Mac: `Cmd+Shift+H`) | **Toggle Highlight** - Add or remove highlight on selected text |
+| `Ctrl+Shift+Z` (Mac: `Cmd+Shift+Z`) | **Toggle Highlight** - Add or remove highlight on selected text |
 | `Ctrl+Shift+C` (Mac: `Cmd+Shift+C`) | **Edit Comment** - Edit comment for highlight at cursor |
 
 ## Usage
@@ -32,7 +32,7 @@ The **Toggle** functionality is the main way to work with highlights:
 
 **Using Keyboard:**
 1. Select text
-2. Press `Ctrl+Shift+H` (or `Cmd+Shift+H` on Mac)
+2. Press `Ctrl+Shift+Z` (or `Cmd+Shift+Z` on Mac)
 3. Done!
    - If text is **not highlighted**, it will be highlighted with the default color
    - If text is **already highlighted**, the highlight will be removed
