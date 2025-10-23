@@ -13,11 +13,9 @@
 </p>
 
 <p align="center">
-  <a href="https://marketplace.visualstudio.com/items?itemName=housamkak.highlightability">
-    <img src="https://img.shields.io/badge/VS%20Code-Extension-0078d7?style=for-the-badge&logo=visual-studio-code" alt="VS Code Extension">
-  </a>
-  <img src="https://img.shields.io/badge/version-0.1.1-4caf50?style=for-the-badge" alt="Version">
-  <img src="https://img.shields.io/badge/license-Proprietary-ff9800?style=for-the-badge" alt="License">
+  <img src="https://img.shields.io/badge/VS%20Code-Extension-blue?logo=visual-studio-code" alt="VS Code Extension">
+  <img src="https://img.shields.io/badge/version-0.1.2-green" alt="Version">
+  <img src="https://img.shields.io/badge/license-Proprietary-orange" alt="License">
 </p>
 
 <p align="center">
