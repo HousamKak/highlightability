@@ -2,6 +2,33 @@
 
 All notable changes to the "Highlightability" extension will be documented in this file.
 
+## [0.1.2] - 2025-10-23
+
+### Changed
+- Restructured README for improved clarity and organization
+- Enhanced documentation with better sections and navigation
+
+## [0.1.1] - 2025-10-23
+
+### Fixed
+- Fixed logo images to use relative paths for marketplace compatibility
+- Improved icon visibility with 256x256 size for better marketplace display
+- Scaled up icon content by 1.5x for better visibility
+
+### Changed
+- Updated license badge to Proprietary in README
+
+## [0.1.0] - 2025-10-23
+
+### Added
+- Professional logo and icon assets (PNG format) for both light and dark themes
+- 256x256 icon for marketplace visibility
+- Updated licensing information to Proprietary license
+
+### Changed
+- Migrated from SVG to PNG format for logos and icons for marketplace compatibility
+- Updated README with new branding assets
+
 ## [0.0.2] - 2025-10-22
 
 ### Added
